@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram id="netbox-pod03-architecture" name="NetBox POD03 Architecture">
+    <mxGraphModel dx="1600" dy="2200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="NetBox POD03 VLAN DB Architecture" style="text;html=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#111827;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="260" y="20" width="500" height="40" as="geometry"/></mxCell>
+        <mxCell id="cat" value="Category" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#6b21a8;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="90" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="tg" value="Tenant Group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#6b21a8;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="190" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="ten" value="Tenants&#xa;Customer Solutions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#6b21a8;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="310" width="220" height="110" as="geometry"/></mxCell>
+        <mxCell id="sg" value="Site Group&#xa;POD03" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#166534;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="500" width="220" height="80" as="geometry"/></mxCell>
+        <mxCell id="sites" value="Sites&#xa;Scoped under POD03" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#166534;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="640" width="220" height="80" as="geometry"/></mxCell>
+        <mxCell id="vg" value="VLAN Groups&#xa;17 groups" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="800" width="220" height="130" as="geometry"/></mxCell>
+        <mxCell id="vl" value="VLANs&#xa;137 VLANs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="990" width="220" height="90" as="geometry"/></mxCell>
+        <mxCell id="vrf" value="VRF&#xa;Global" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#374151;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="1140" width="220" height="80" as="geometry"/></mxCell>
+        <mxCell id="pref" value="Prefixes&#xa;48 prefixes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfeff;strokeColor=#0f766e;fontSize=16;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="1280" width="220" height="90" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
